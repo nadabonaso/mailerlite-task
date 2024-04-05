@@ -19,14 +19,15 @@
       <section class="hero">
         <div class="min-h-[70vh] flex bg-white pt-10">
           <div class="relative flex flex-col justify-center">
-            <div class="w-full max-w-7xl mx-auto">
+            <div class="w-full max-w-8xl mx-auto">
               <div class="text-left">
+                <!-- Mobile version of text animation to control the sizing-->
                 <div
-                  class="font-bold text-5xl md:text-5xl [text-wrap:balance] bg-clip-text text-black"
+                  class="md:hidden font-bold text-3xl md:text-3xl [text-wrap:balance] bg-clip-text text-black"
                 >
                   Create
                   <span
-                    class="text-black inline-flex flex-col h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] overflow-hidden feature-scroll"
+                    class="text-black inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] overflow-hidden feature-scroll"
                   >
                     <ul
                       class="block animate-text-slide-5 text-left leading-tight [&_li]:block"
@@ -42,10 +43,32 @@
                   ><br />
                   your audience will love
                 </div>
+                <!-- Desktop version of text animation to control the sizing-->
+                <div
+                class="hidden md:block font-bold text-5xl md:text-5xl [text-wrap:balance] bg-clip-text text-black"
+              >
+                Create
+                <span
+                  class="text-black inline-flex flex-col h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] overflow-hidden feature-scroll"
+                >
+                  <ul
+                    class="block animate-text-slide-5 text-left leading-tight [&_li]:block"
+                  >
+                    <li><span class="bg-primarylight rounded-md px-2">email marketing</span></li>
+                    <li><span class="bg-primarylight rounded-md px-2">automations</span></li>
+                    <li ><span class="bg-primarylight rounded-md px-2">landing pages</span></li>
+                    <li ><span class="bg-primarylight rounded-md px-2">signup forms</span></li>
+                    <li ><span class="bg-primarylight rounded-md px-2">websites</span></li>
+                    <li aria-hidden="true"><span class="bg-primarylight rounded-md px-2">email marketing</span></li>
+                  </ul> 
+                  </span
+                ><br />
+                your audience will love
+              </div>
 
               </div>
               <div>
-                <p class="max-w-4xl text-lg md:text-2xl my-8">
+                <p class="max-w-4xl text-lg md:text-xl lg:text-2xl leading-8 my-8">
                   Digital marketing tools to grow your audience faster and drive
                   revenue smarter. Backed by 24/7 award-winning support.
                 </p>
@@ -161,7 +184,7 @@
               ></a>
             </div>
             <div
-              class="col-span-3 lg:col-span-2 p-8 rounded-2xl border-solid border-2 border-silver bg-white relative hover:shadow-lg hover:cursor-pointer hover:bg-primarylight transition-all ease-in-out"
+              class="col-span-3 lg:col-span-1 p-8 rounded-2xl border-solid border-2 border-silver bg-white relative hover:shadow-lg hover:cursor-pointer hover:bg-primarylight transition-all ease-in-out"
             >
               <div class="flex flex-row items-start">
                 <span
@@ -196,7 +219,7 @@
               ></a>
             </div>
             <div
-              class="col-span-3 lg:col-span-1 p-8 rounded-2xl border-solid border-2 border-silver bg-white relative hover:shadow-lg hover:cursor-pointer hover:bg-primarylight transition-all ease-in-out"
+              class="col-span-3 lg:col-span-2 p-8 rounded-2xl border-solid border-2 border-silver bg-white relative hover:shadow-lg hover:cursor-pointer hover:bg-primarylight transition-all ease-in-out"
             >
               <div class="flex flex-row items-start">
                 <span
@@ -213,7 +236,7 @@
                   </p>
                 </div>
               </div>
-              <div class="mt-12 md:mt-0 md:mr-10">
+              <div class="flex flex-row justify-end mt-12 md:mt-0 md:mr-10">
                 <img
                   src="img/Data-analysis-bro.svg"
                   alt="Two people analysing data charts"
@@ -264,7 +287,7 @@
                 <div>
                   <h2 class="text-lg xl:text-xl font-bold">Signup forms</h2>
                   <p class="my-5">
-                    Grow your audience with highly- effective subscribe forms.
+                    Grow your audience with highly - effective subscribe forms.
                   </p>
                   <a class="flex items-center" href="#"
                     ><span class="hover:bg-primarylight text-center hover:no-underline transition-all ease-in-out px-1">Explore signup forms</span>
