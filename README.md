@@ -1,0 +1,2 @@
+# mailerlite-task
+ Interview task
