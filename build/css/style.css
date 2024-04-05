@@ -693,16 +693,12 @@ video {
   height: 2rem;
 }
 
-.h-\[calc\(theme\(fontSize\.5xl\)\*theme\(lineHeight\.tight\)\)\] {
-  height: calc(3rem * 1.25);
-}
-
-.h-\[calc\(theme\(fontSize\.6xl\)\*theme\(lineHeight\.tight\)\)\] {
-  height: calc(3.75rem * 1.25);
-}
-
 .h-\[calc\(theme\(fontSize\.3xl\)\*theme\(lineHeight\.tight\)\)\] {
   height: calc(1.875rem * 1.25);
+}
+
+.h-\[calc\(theme\(fontSize\.5xl\)\*theme\(lineHeight\.tight\)\)\] {
+  height: calc(3rem * 1.25);
 }
 
 .min-h-\[70vh\] {
@@ -727,10 +723,6 @@ video {
 
 .max-w-md {
   max-width: 28rem;
-}
-
-.max-w-3xl {
-  max-width: 48rem;
 }
 
 .flex-none {
@@ -793,10 +785,6 @@ video {
 
 .items-start {
   align-items: flex-start;
-}
-
-.items-end {
-  align-items: flex-end;
 }
 
 .items-center {
@@ -918,6 +906,11 @@ video {
   text-align: center;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -938,16 +931,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -958,10 +941,6 @@ video {
 
 .leading-tight {
   line-height: 1.25;
-}
-
-.leading-8 {
-  line-height: 2rem;
 }
 
 .text-black {
@@ -1062,10 +1041,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
   .md\:mr-10 {
     margin-right: 2.5rem;
   }
@@ -1094,36 +1069,22 @@ video {
     display: none;
   }
 
-  .md\:h-\[calc\(theme\(fontSize\.5xl\)\*theme\(lineHeight\.tight\)\)\] {
-    height: calc(3rem * 1.25);
-  }
-
-  .md\:h-\[calc\(theme\(fontSize\.6xl\)\*theme\(lineHeight\.tight\)\)\] {
-    height: calc(3.75rem * 1.25);
-  }
-
   .md\:h-\[calc\(theme\(fontSize\.3xl\)\*theme\(lineHeight\.tight\)\)\] {
     height: calc(1.875rem * 1.25);
   }
 
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+  .md\:h-\[calc\(theme\(fontSize\.5xl\)\*theme\(lineHeight\.tight\)\)\] {
+    height: calc(3rem * 1.25);
   }
 
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:text-xl {
@@ -1147,16 +1108,6 @@ video {
 
   .lg\:p-20 {
     padding: 5rem;
-  }
-
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 
