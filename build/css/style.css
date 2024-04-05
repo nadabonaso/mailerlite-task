@@ -637,10 +637,6 @@ video {
   margin-bottom: 2rem;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -882,6 +878,10 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -964,10 +964,9 @@ video {
 - Shades: 
 #079B54
 
-- Accents:
-#ffd43b
+
 - Greys: 
-#E5E7EB (lightest grey for light bg color)
+#E5E7EB 
 #F8F8F8
 #222
 
@@ -983,52 +982,6 @@ video {
     rgba(255, 255, 255, 0.8) 70%
   );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
-
-@media (min-width: 1024px) {
-  .lg\:container {
-    width: 100%;
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
-
-  @media (min-width: 640px) {
-    .lg\:container {
-      max-width: 640px;
-      padding-right: 3rem;
-      padding-left: 3rem;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .lg\:container {
-      max-width: 768px;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .lg\:container {
-      max-width: 1024px;
-      padding-right: 4rem;
-      padding-left: 4rem;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .lg\:container {
-      max-width: 1280px;
-      padding-right: 5rem;
-      padding-left: 5rem;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .lg\:container {
-      max-width: 1536px;
-      padding-right: 6rem;
-      padding-left: 6rem;
-    }
-  }
 }
 
 .hover\:scale-x-125:hover {
