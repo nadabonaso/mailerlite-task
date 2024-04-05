@@ -1130,6 +1130,10 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .md\:leading-8 {
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 1024px) {
