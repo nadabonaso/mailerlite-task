@@ -24,27 +24,10 @@
 
 .green-gradient {
   background: linear-gradient(
-    40deg,
-    rgba(255, 255, 255, 0.5) 28%,
+    25deg,
+    rgba(255, 255, 255, 0.8) 28%,
     rgba(206, 243, 225, 0.3) 43%,
     rgba(206, 243, 225, 0.3) 51%,
-    rgba(255, 255, 255, 0.5) 70%
+    rgba(255, 255, 255, 0.8) 70%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
-
-/* .grid-container {
-  grid-template-rows: repeat(2, 1fr);
-
-  grid-template-columns: repeat(3, 1fr);
-
-  align-items: center;
-  align-items: stretch; 
-
-  grid-auto-flow: row dense;
-  grid-auto-rows: max-content;
-  align-items: stretch;
-  justify-items: stretch;
-
-  height: auto;
-  justify-content: center;
-} */

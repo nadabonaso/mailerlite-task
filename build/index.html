@@ -17,7 +17,7 @@
     <div class="container mx-auto">
       <!-- Hero section -->
       <section class="hero">
-        <div class="min-h-[70vh] bg-white flex py-10">
+        <div class="min-h-[70vh] bg-white flex pt-10">
           <div class="relative flex flex-col justify-center">
             <div class="w-full max-w-7xl mx-auto">
               <div class="text-left">
@@ -31,16 +31,18 @@
                     <ul
                       class="block animate-text-slide-5 text-left leading-tight [&_li]:block"
                     >
-                      <li class="bg-primarylight px-2">email marketing</li>
-                      <li class="bg-primarylight px-2">automations</li>
-                      <li class="bg-primarylight px-2">landing pages</li>
-                      <li class="bg-primarylight px-2">signup forms</li>
-                      <li class="bg-primarylight px-2">websites</li>
-                      <li class="px-2" aria-hidden="true">email marketing</li>
-                    </ul> </span
+                      <li><span class="bg-primarylight rounded-md px-2">email marketing</span></li>
+                      <li><span class="bg-primarylight rounded-md px-2">automations</span></li>
+                      <li ><span class="bg-primarylight rounded-md px-2">landing pages</span></li>
+                      <li ><span class="bg-primarylight rounded-md px-2">signup forms</span></li>
+                      <li ><span class="bg-primarylight rounded-md px-2">websites</span></li>
+                      <li aria-hidden="true"><span class="bg-primarylight rounded-md px-2">email marketing</span></li>
+                    </ul> 
+                    </span
                   ><br />
                   your audience will love
                 </div>
+
               </div>
               <div>
                 <p class="max-w-4xl text-lg md:text-2xl my-8">
@@ -48,13 +50,13 @@
                   revenue smarter. Backed by 24/7 award-winning support.
                 </p>
                 <button
-                  class="mr-6 bg-primary text-white py-3 px-10 rounded-md hover:bg-primarydark transition-all"
+                  class="mr-6 bg-primary text-white py-3 px-10 rounded-md hover:bg-primarydark transition-all ease-in-out" aria-label="Sign up button"
                 >
                   Sign up free
                 </button>
                 <a
-                  class="underline rounded-md bg-white hover:bg-primarylight text-center hover:no-underline transition-all"
-                  href="#"
+                  class="underline hover:bg-primarylight text-center hover:no-underline transition-all ease-in-out px-1"
+                  href="#" aria-label="Watch demo button"
                   >Watch demo</a
                 >
                 <ul
@@ -72,12 +74,6 @@
                     <ion-icon name="checkmark"></ion-icon
                     ><span class="ml-2">No credit card required</span>
                   </li>
-                  <!-- <li class="mr-4">
-                  <ion-icon name="checkmark"></ion-icon
-                  ><span class="ml-2"
-                    >Backed by 24/7 award-winning support</span
-                  >
-                </li> -->
                 </ul>
               </div>
             </div>
@@ -85,233 +81,229 @@
         </div>
       </section>
     </div>
-      <!-- Feature cards -->
-
-      <section class="max-w-7xl m-auto lg:container">
-        <div class="p-10 lg:p-20 features m-auto green-gradient mb-20">
-          <div class="flex justify-center">
-            <div class="grid grid-rows-auto grid-cols-3 gap-6 content-stretch">
-              <div
-                class="col-span-3 lg:col-span-2 p-8 rounded-2xl border-solid border-2 border-silver bg-white relative"
+    <!-- Feature cards -->
+    <section class="max-w-7xl m-auto lg:container">
+      <div class="p-10 lg:p-20 m-auto green-gradient mb-20">
+        <div class="flex justify-center">
+          <div class="grid grid-rows-auto grid-cols-3 gap-6 content-stretch">
+            <div
+              class="col-span-3 lg:col-span-2 p-8 rounded-2xl border-solid border-2 border-silver bg-white relative hover:shadow-lg hover:cursor-pointer hover:bg-primarylight transition-all ease-in-out"
+            >
+              <div class="flex flex-row items-start">
+                <span
+                  class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
+                  ><ion-icon name="send"></ion-icon
+                ></span>
+                <div>
+                  <h2 class="text-lg xl:text-xl font-bold">
+                    Grow your business with email campaigns
+                  </h2>
+                  <p class="my-5 max-w-md">
+                    Create engaging, dynamic emails in minutes with our
+                    intuitive drag & drop email editor.
+                  </p>
+                </div>
+              </div>
+              <div class="mt-12">
+                <img
+                  src="img/Email-campaign-bro.svg"
+                  alt="Lady sending out messages"
+                  height="260"
+                  width="255"
+                />
+              </div>
+              <a
+                class="absolute right-7 bottom-6 hover:opacity-60 hover:transition-all hover:scale-x-125"
+                aria-label="Click to learn more"
+                href="#"
               >
-                <div class="flex flex-row items-start">
-                  <span
-                    class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
-                    ><ion-icon name="send"></ion-icon
-                  ></span>
-                  <div>
-                    <h2 class="text-lg xl:text-xl font-bold">
-                      Grow your business with email campaigns
-                    </h2>
-                    <p class="my-5 max-w-md">
-                      Create engaging, dynamic emails in minutes with our
-                      intuitive drag & drop email editor.
-                    </p>
-                  </div>
+                <ion-icon
+                  class="w-8 h-8"
+                  name="arrow-forward-outline"
+                ></ion-icon
+              ></a>
+            </div>
+            <div
+              class="col-span-3 lg:col-span-1 p-8 rounded-2xl border-solid border-2 border-silver bg-white relative hover:shadow-lg hover:cursor-pointer hover:bg-primarylight transition-all ease-in-out"
+            >
+              <div class="flex flex-row items-start">
+                <span
+                  class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
+                  ><ion-icon name="git-network"></ion-icon
+                ></span>
+                <div>
+                  <h2 class="text-lg xl:text-xl font-bold">
+                    Convert with email automations
+                  </h2>
+                  <p class="my-5">
+                    Create engaging, dynamic emails in minutes with our
+                    intuitive drag & drop email editor.
+                  </p>
                 </div>
-
-                <div class="mt-12">
-                  <img
-                    src="/img/Email-campaign-bro.svg"
-                    alt=""
-                    height="260"
-                    width="255"
-                  />
-                </div>
-                <a
-                  class="absolute right-7 bottom-6 hover:opacity-60 hover:transition-all hover:scale-x-125"
-                  aria-label="Click to learn more"
-                  href="#"
-                >
-                  <ion-icon
-                    class="w-8 h-8"
-                    name="arrow-forward-outline"
-                  ></ion-icon
-                ></a>
               </div>
-              <div
-                class="col-span-3 lg:col-span-1 p-8 rounded-2xl border-solid border-2 border-silver bg-white relative"
+              <div class="mt-12 md:mt-0 md:mr-5">
+                <img
+                  src="img/Shared-goals-bro.svg"
+                  alt="People dicussing strategy at work"
+                  height="225"
+                  width="232"
+                />
+              </div>
+              <a
+                class="absolute right-7 bottom-6 hover:opacity-60 hover:transition-all hover:scale-x-125"
+                aria-label="Click to learn more"
+                href="#"
               >
-                <div class="flex flex-row items-start">
-                  <span
-                    class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
-                    ><ion-icon name="git-network"></ion-icon
-                  ></span>
-                  <div>
-                    <h2 class="text-lg xl:text-xl font-bold">
-                      Convert with email automations
-                    </h2>
-                    <p class="my-5">
-                      Create engaging, dynamic emails in minutes with our
-                      intuitive drag & drop email editor.
-                    </p>
-                  </div>
+                <ion-icon
+                  class="w-8 h-8"
+                  name="arrow-forward-outline"
+                ></ion-icon
+              ></a>
+            </div>
+            <div
+              class="col-span-3 lg:col-span-2 p-8 rounded-2xl border-solid border-2 border-silver bg-white relative hover:shadow-lg hover:cursor-pointer hover:bg-primarylight transition-all ease-in-out"
+            >
+              <div class="flex flex-row items-start">
+                <span
+                  class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
+                  ><ion-icon name="cash"></ion-icon
+                ></span>
+                <div>
+                  <h2 class="text-xl font-bold">Sell digital products</h2>
+                  <p class="my-5">
+                    Sell ebooks, downloads, or whatever else will help
+                    subscribers.
+                  </p>
                 </div>
-                <div class="mt-12 md:mt-0 md:mr-5">
-                  <img
-                    src="/img/Shared-goals-bro.svg"
-                    alt=""
-                    height="225"
-                    width="232"
-                  />
-                </div>
-                <a
-                  class="absolute right-7 bottom-6 hover:opacity-60 hover:transition-all hover:scale-x-125"
-                  aria-label="Click to learn more"
-                  href="#"
-                >
-                  <ion-icon
-                    class="w-8 h-8"
-                    name="arrow-forward-outline"
-                  ></ion-icon
-                ></a>
               </div>
-              <div
-                class="col-span-3 lg:col-span-2 p-8 rounded-2xl border-solid border-2 border-silver bg-white relative"
+              <div class="mt-0 md:mt-12 md:mr-5">
+                <img
+                  src="img/marketplace-graphic.svg"
+                  alt="Lady browsing an online shop on her phone"
+                  height="194"
+                  width="210"
+                />
+              </div>
+              <a
+                class="absolute right-7 bottom-6 hover:opacity-60 hover:transition-all hover:scale-x-125"
+                aria-label="Click to learn more"
+                href="#"
               >
-                <div class="flex flex-row items-start">
-                  <span
-                    class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
-                    ><ion-icon name="cash"></ion-icon
-                  ></span>
-                  <div>
-                    <h2 class="text-xl font-bold">Sell digital products</h2>
-                    <p class="my-5">
-                      Sell ebooks, downloads, or whatever else will help
-                      subscribers.
-                    </p>
-                  </div>
+                <ion-icon
+                  class="w-8 h-8"
+                  name="arrow-forward-outline"
+                ></ion-icon
+              ></a>
+            </div>
+            <div
+              class="col-span-3 lg:col-span-1 p-8 rounded-2xl border-solid border-2 border-silver bg-white relative hover:shadow-lg hover:cursor-pointer hover:bg-primarylight transition-all ease-in-out"
+            >
+              <div class="flex flex-row items-start">
+                <span
+                  class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
+                  ><ion-icon name="stats-chart"></ion-icon
+                ></span>
+                <div>
+                  <h2 class="text-lg xl:text-xl font-bold">
+                    Analyse and track performance
+                  </h2>
+                  <p class="my-5 max-w-md">
+                    Monitor performance to find what works best for your
+                    business.
+                  </p>
                 </div>
-
-                <div class="mt-12 md:mt-0 md:mr-5">
-                  <img
-                    src="/img/marketplace-graphic.svg"
-                    alt=""
-                    height="194"
-                    width="210"
-                  />
-                </div>
-                <a
-                  class="absolute right-7 bottom-6 hover:opacity-60 hover:transition-all hover:scale-x-125"
-                  aria-label="Click to learn more"
-                  href="#"
-                >
-                  <ion-icon
-                    class="w-8 h-8"
-                    name="arrow-forward-outline"
-                  ></ion-icon
-                ></a>
               </div>
-              <div
-                class="col-span-3 lg:col-span-1 p-8 rounded-2xl border-solid border-2 border-silver bg-white relative"
+              <div class="mt-12 md:mt-0 md:mr-10">
+                <img
+                  src="img/Data-analysis-bro.svg"
+                  alt="Two people analysing data charts"
+                  height="303"
+                  width="308"
+                />
+              </div>
+              <a
+                class="absolute right-7 bottom-6 hover:opacity-60 hover:transition-all hover:scale-x-125"
+                aria-label="Click to learn more"
+                href="#"
               >
-                <div class="flex flex-row items-start">
-                  <span
-                    class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
-                    ><ion-icon name="stats-chart"></ion-icon
-                  ></span>
-                  <div>
-                    <h2 class="text-lg xl:text-xl font-bold">
-                      Analyse and track performance
-                    </h2>
-                    <p class="my-5 max-w-md">
-                      Monitor performance to find what works best for your
-                      business.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="mt-12 md:mt-0 md:mr-10">
-                  <img
-                    src="/img/Data-analysis-bro.svg"
-                    alt=""
-                    height="323"
-                    width="328"
-                  />
-                </div>
-                <a
-                  class="absolute right-7 bottom-6 hover:opacity-60 hover:transition-all hover:scale-x-125"
-                  aria-label="Click to learn more"
-                  href="#"
-                >
-                  <ion-icon
-                    class="w-8 h-8"
-                    name="arrow-forward-outline"
-                  ></ion-icon
-                ></a>
-              </div>
-              <!-- Feature ctas -->
-              <div class="col-span-3 lg:col-span-1 flex flex-col p-4 mt-15">
-                <div class="flex flex-row items-start">
-                  <span
-                    class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
-                    ><ion-icon name="globe"></ion-icon
-                  ></span>
-                  <div>
-                    <h2 class="text-lg xl:text-xl font-bold">Websites</h2>
-                    <p class="my-5">
-                      Build stunning websites on your own and let your business
-                      shine.
-                    </p>
-                    <a class="hover:underline flex items-center" href="#"
-                      >Explore websites
-                      <ion-icon
-                        class="ml-4"
-                        name="arrow-forward-outline"
-                      ></ion-icon
-                    ></a>
-                  </div>
+                <ion-icon
+                  class="w-8 h-8"
+                  name="arrow-forward-outline"
+                ></ion-icon
+              ></a>
+            </div>
+            <!-- Feature ctas -->
+            <div class="col-span-3 lg:col-span-1 flex flex-col p-4 mt-15">
+              <div class="flex flex-row items-start">
+                <span
+                  class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
+                  ><ion-icon name="globe"></ion-icon
+                ></span>
+                <div>
+                  <h2 class="text-lg xl:text-xl font-bold">Websites</h2>
+                  <p class="my-5">
+                    Build stunning websites on your own and let your business
+                    shine.
+                  </p>
+                  <a class="flex items-center"  href="#"
+                    ><span class="hover:bg-primarylight text-center hover:no-underline transition-all ease-in-out px-1">Explore websites</span>
+                    <ion-icon
+                      class="ml-4"
+                      name="arrow-forward-outline"
+                    ></ion-icon
+                  ></a>
                 </div>
               </div>
-              <div class="col-span-3 lg:col-span-1 flex flex-col p-4">
-                <div class="flex flex-row items-start">
-                  <span
-                    class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
-                    ><ion-icon name="document-text"></ion-icon
-                  ></span>
-                  <div>
-                    <h2 class="text-lg xl:text-xl font-bold">Signup forms</h2>
-                    <p class="my-5">
-                      Grow your audience with highly- effective subscribe forms.
-                    </p>
-                    <a class="hover:underline flex items-center" href="#"
-                      >Explore signup forms
-                      <ion-icon
-                        class="ml-4"
-                        name="arrow-forward-outline"
-                      ></ion-icon
-                    ></a>
-                  </div>
+            </div>
+            <div class="col-span-3 lg:col-span-1 flex flex-col p-4">
+              <div class="flex flex-row items-start">
+                <span
+                  class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
+                  ><ion-icon name="document-text"></ion-icon
+                ></span>
+                <div>
+                  <h2 class="text-lg xl:text-xl font-bold">Signup forms</h2>
+                  <p class="my-5">
+                    Grow your audience with highly- effective subscribe forms.
+                  </p>
+                  <a class="flex items-center" href="#"
+                    ><span class="hover:bg-primarylight text-center hover:no-underline transition-all ease-in-out px-1">Explore signup forms</span>
+                    <ion-icon
+                      class="ml-4"
+                      name="arrow-forward-outline"
+                    ></ion-icon
+                  ></a>
                 </div>
               </div>
-              <div class="col-span-3 lg:col-span-1 flex flex-col p-4">
-                <div class="flex flex-row items-start">
-                  <span
-                    class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
-                    ><ion-icon name="newspaper"></ion-icon
-                  ></span>
-                  <div>
-                    <h2 class="text-lg xl:text-xl font-bold">
-                      Paid newsletter subscriptions
-                    </h2>
-                    <p class="my-5">
-                      Easily set up recurring payments to offer paid
-                      subscriptions.
-                    </p>
-                    <a class="hover:underline flex items-center" href="#"
-                      >Explore newsletter subscriptions
-                      <ion-icon
-                        class="ml-4"
-                        name="arrow-forward-outline"
-                      ></ion-icon
-                    ></a>
-                  </div>
+            </div>
+            <div class="col-span-3 lg:col-span-1 flex flex-col p-4">
+              <div class="flex flex-row items-start">
+                <span
+                  class="px-2 py-1 rounded-md border-solid border-2 border-silver bg-lightgrey mr-5"
+                  ><ion-icon name="newspaper"></ion-icon
+                ></span>
+                <div>
+                  <h2 class="text-lg xl:text-xl font-bold">
+                    Paid newsletter subscriptions
+                  </h2>
+                  <p class="my-5">
+                    Easily set up recurring payments to offer paid
+                    subscriptions.
+                  </p>
+                  <a class="flex items-center" href="#"
+                    > <span class="hover:bg-primarylight text-center hover:no-underline transition-all ease-in-out px-1">Explore subscriptions</span>
+                    <ion-icon
+                      class="ml-4"
+                      name="arrow-forward-outline"
+                    ></ion-icon
+                  ></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     </div>
     <script
       type="module"
