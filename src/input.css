@@ -20,6 +20,7 @@ Project colours
 
 */
 
+/* Custom css*/
 .green-gradient {
   background: linear-gradient(
     25deg,
@@ -28,4 +29,20 @@ Project colours
     rgba(206, 243, 225, 0.3) 51%,
     rgba(255, 255, 255, 0.8) 70%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/* CSS extraction*/
+
+@layer components {
+  .btn-link-span {
+    @apply hover:bg-primarylight text-center hover:no-underline transition-all ease-in-out px-1 mr-2 xl:mr-4;
+  }
+
+  .heading-icon {
+    @apply rounded-md border-solid border-2 border-silver bg-lightgrey mr-5 px-2 py-1;
+  }
+
+  .btn-arrow-lg {
+    @apply absolute right-7 bottom-6 hover:opacity-60 hover:transition-all hover:scale-x-125;
+  }
 }
