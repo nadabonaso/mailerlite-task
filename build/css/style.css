@@ -641,8 +641,8 @@ video {
   margin-left: 0.5rem;
 }
 
-.ml-4 {
-  margin-left: 1rem;
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .mr-4 {
@@ -667,14 +667,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
-.mr-1 {
-  margin-right: 0.25rem;
 }
 
 .block {
@@ -799,10 +791,6 @@ video {
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -865,16 +853,16 @@ video {
   padding: 2.5rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .px-1 {
@@ -984,6 +972,7 @@ video {
 }
 
 /*
+Project colours
 
 - Primary:
 #09C269
@@ -993,12 +982,10 @@ video {
 - Shades: 
 #079B54
 
-
 - Greys: 
 #E5E7EB 
 #F8F8F8
 #222
-
 
 */
 
@@ -1053,26 +1040,8 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:mr-5 {
-    margin-right: 1.25rem;
-  }
-
-  .sm\:p-2 {
-    padding: 0.5rem;
-  }
-
   .sm\:p-8 {
     padding: 2rem;
-  }
-
-  .sm\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .sm\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
   }
 }
 
@@ -1113,10 +1082,6 @@ video {
     height: calc(3rem * 1.25);
   }
 
-  .md\:justify-end {
-    justify-content: flex-end;
-  }
-
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1146,14 +1111,6 @@ video {
     grid-column: span 2 / span 2;
   }
 
-  .lg\:mr-5 {
-    margin-right: 1.25rem;
-  }
-
-  .lg\:ml-4 {
-    margin-left: 1rem;
-  }
-
   .lg\:justify-end {
     justify-content: flex-end;
   }
@@ -1168,10 +1125,6 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:ml-4 {
-    margin-left: 1rem;
-  }
-
   .xl\:mr-4 {
     margin-right: 1rem;
   }
